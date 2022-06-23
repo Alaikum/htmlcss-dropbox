@@ -29,21 +29,59 @@ ul {
 .nav {
     max-height: 80px;
     align-items: center;
-        padding: 18px 15px;
+    padding: 18px 15px;
 
     justify-content: space-between;
-    
-   
+
+
 }
 
-.logo{
+.logo {
     align-items: center;
 }
-.ul__nav{
+
+.ul__nav {
     align-items: center;
 }
-#accedi{
+
+#accedi {
     background-color: #0061FF;
     color: white;
     padding: 10px;
+}
+
+
+/* MAIN  */
+
+.hero {
+    background-color: #B4D0E7;
+    padding-top: 85px;
+}
+
+.largecontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title__hero {
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.main__hero {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.text__hero {
+    flex-basis: 35%;
+    padding-top: 75px;
+}
+
+.img__hero {
+    flex-basis: 65%;
+    position: relative;
+
+    top: 75px;
 }
