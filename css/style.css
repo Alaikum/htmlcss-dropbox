@@ -2,18 +2,48 @@
  o mente che scrivesti ciò ch'io vidi,
   qui si parrà la tua nobilitate */
 
-  /* REGOLE DI RESET  */
+/* REGOLE DI RESET  */
 
-  *{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
 
-  img{
+}
+
+img {
     max-width: 100%;
-  }
+}
 
-  ul{
+ul {
     list-style: none;
-  }
+}
+
+/* HEAD  */
+
+.flex__nav {
+    display: flex;
+    gap: 40px;
+}
+
+.nav {
+    max-height: 80px;
+    align-items: center;
+        padding: 18px 15px;
+
+    justify-content: space-between;
+    
+   
+}
+
+.logo{
+    align-items: center;
+}
+.ul__nav{
+    align-items: center;
+}
+#accedi{
+    background-color: #0061FF;
+    color: white;
+    padding: 10px;
+}
