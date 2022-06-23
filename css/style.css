@@ -24,6 +24,7 @@ ul {
 .flex__nav {
     display: flex;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .nav {
@@ -77,6 +78,27 @@ ul {
 .text__hero {
     flex-basis: 35%;
     padding-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.pulsante__hero {
+    background-color: #0061FF;
+    color: white;
+    padding: 20px;
+    max-width: 230px;
+}
+
+.annulla__hero {
+    position: relative;
+    bottom: 40px;
+}
+
+.arrow__hero {
+    font-size: 50px;
+    padding-bottom: 25px;
+
 }
 
 .img__hero {
