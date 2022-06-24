@@ -196,3 +196,7 @@ ul {
     border-bottom: 1px solid gray;
     max-width: 45px;
 }
+
+.flex__li{
+    display: flex;
+}
