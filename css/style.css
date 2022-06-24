@@ -123,6 +123,43 @@ ul {
     margin-bottom: 75px;
 }
 
-#annuale{
+#annuale {
     margin-left: 45px;
+}
+
+.canone {
+
+
+    margin-bottom: 60px;
+
+}
+
+/* CARDS CSS  */
+
+.row {
+    display: flex;
+}
+
+.col4 {
+
+    flex-basis: calc(100% / 3);
+    border: 1px solid black;
+
+}
+
+.header__cards {
+    height: 45px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    line-height: 45px;
+    font-size: 14px;
+}
+
+.main__cards{
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.title__cards{
+    font-size: 24px;
 }
