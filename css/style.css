@@ -8,6 +8,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -86,13 +87,14 @@ ul {
 .pulsante__hero {
     background-color: #0061FF;
     color: white;
-    padding: 20px;
+    padding: 20px 15px;
     max-width: 230px;
+    max-height  : 50px;
 }
 
-.annulla__hero {
+ .annulla__hero {
     position: relative;
-    bottom: 40px;
+    bottom: 15px;
 }
 
 .arrow__hero {
@@ -124,7 +126,7 @@ ul {
 }
 
 #annuale {
-    margin-left: 45px;
+    margin-left: 35px;
 }
 
 .canone {
@@ -138,12 +140,17 @@ ul {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 
 .col4 {
 
-    flex-basis: calc(100% / 3);
+    /* flex-basis: calc(100% / 3); */
     border: 1px solid black;
+    flex-grow: 1;
+    flex-basis: 0;
+    
 
 }
 
@@ -158,6 +165,8 @@ ul {
 .main__cards {
     padding-top: 40px;
     padding-left: 30px;
+    padding-right: 35px;
+    font-size: 14px;
 }
 
 .title__cards {
@@ -175,8 +184,21 @@ ul {
     padding-bottom: 40px;
 }
 
+
+/* selettore no-price da rimuovere con un selettore
+avanzato */
+#no-price{
+    padding-top: 14px;
+}
+
 .li__cards {
     padding-bottom: 30px;
+    
+}
+
+.flex__li{
+    display: flex;
+    gap: 5px;
 }
 
 .botton__cards {
@@ -197,6 +219,15 @@ ul {
     max-width: 45px;
 }
 
-.flex__li{
-    display: flex;
+.title__end{
+    font-size: 15px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
+
+.fa-solid.fa-check{
+    color: blue;
+    line-height: 25px;
+}
+
+
