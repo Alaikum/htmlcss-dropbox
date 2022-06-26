@@ -153,6 +153,11 @@ ul {
     
 
 }
+.col12 {
+    
+    flex-basis: 100%;
+    border: 1px solid black;
+}
 
 .header__cards {
     height: 45px;
@@ -187,7 +192,7 @@ ul {
 
 /* selettore no-price da rimuovere con un selettore
 avanzato */
-#no-price{
+.no-price{
     padding-top: 14px;
 }
 
@@ -207,6 +212,8 @@ avanzato */
     padding: 20px;
     max-width: 240px;
     text-align: center;
+    height: 40px;
+    line-height: 0px;
 }
 
 .link__cards{
@@ -230,4 +237,16 @@ avanzato */
     line-height: 25px;
 }
 
+.horizontal__cards{
+    display: flex;
+    justify-content: space-between;
+}
 
+.horizontal__cards>.botton__cards{
+    background-color: #0061FF;
+    width: 233px;
+}
+
+.ul__cards>.horizontal__cards{
+    max-width: 610px;
+}
