@@ -118,7 +118,8 @@ ul {
     margin: 0 auto;
 }
 
-.titolo__canone {
+.titolo__canone,
+.title__business-cards {
 
     font-size: 40px;
     margin-top: 160px;
@@ -144,12 +145,14 @@ ul {
     gap: 50px;
 }
 
-.col4 {
+.col4,
+.col4__business-cards {
 
     /* flex-basis: calc(100% / 3); */
     border: 1px solid black;
     flex-grow: 1;
     flex-basis: 0;
+
 
 
 }
@@ -176,7 +179,8 @@ ul {
 }
 
 .title__cards,
-.title__page-center {
+.title__page-center,
+.col4-title__business-cards {
     font-size: 24px;
     padding-bottom: 30px;
 }
@@ -272,12 +276,37 @@ avanzato */
     padding-right: 70px;
 }
 
-.botton__page-center{
+.botton__page-center {
     margin-top: 30px;
     border: 1px solid black;
     background-color: white;
     color: currentColor;
-   max-width: 160px;
-   padding: 20px 0 0 0 ;
-   
+    max-width: 160px;
+    padding: 20px 0 0 0;
+
 }
+
+/* BUSINESS CARDS  */
+
+.business-cards {
+    padding-top: 10px;
+    /* con questo padding raggiungo i 170 px  */
+}
+
+.title__business-cards {
+    margin-bottom: 70px;
+}
+
+.col4-title__business-cards {
+    padding-bottom: 40px;
+}
+
+.col4__business-cards{
+    border: none;
+}
+.padding-row{
+    padding-top: 70px;
+}
+
+
+/* TEAM CSS  */
