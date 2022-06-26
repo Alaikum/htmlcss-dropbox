@@ -20,7 +20,7 @@ ul {
     list-style: none;
 }
 
-/* HEAD  */
+/* HEADER  */
 
 .flex__nav {
     display: flex;
@@ -250,3 +250,5 @@ avanzato */
 .ul__cards>.horizontal__cards{
     max-width: 610px;
 }
+
+/* CENTRAL PAGE  */
