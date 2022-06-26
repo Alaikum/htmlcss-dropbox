@@ -89,10 +89,10 @@ ul {
     color: white;
     padding: 20px 15px;
     max-width: 230px;
-    max-height  : 50px;
+    max-height: 50px;
 }
 
- .annulla__hero {
+.annulla__hero {
     position: relative;
     bottom: 15px;
 }
@@ -150,11 +150,12 @@ ul {
     border: 1px solid black;
     flex-grow: 1;
     flex-basis: 0;
-    
+
 
 }
+
 .col12 {
-    
+
     flex-basis: 100%;
     border: 1px solid black;
 }
@@ -174,7 +175,8 @@ ul {
     font-size: 14px;
 }
 
-.title__cards {
+.title__cards,
+.title__page-center {
     font-size: 24px;
     padding-bottom: 30px;
 }
@@ -192,21 +194,22 @@ ul {
 
 /* selettore no-price da rimuovere con un selettore
 avanzato */
-.no-price{
+.no-price {
     padding-top: 14px;
 }
 
 .li__cards {
     padding-bottom: 30px;
-    
+
 }
 
-.flex__li{
+.flex__li {
     display: flex;
     gap: 5px;
 }
 
-.botton__cards {
+.botton__cards,
+.botton__page-center {
     background-color: #0061FF;
     color: white;
     padding: 20px;
@@ -216,39 +219,65 @@ avanzato */
     line-height: 0px;
 }
 
-.link__cards{
+.link__cards {
     padding-top: 30px;
     padding-bottom: 40px;
 }
 
-.linea{
+.linea {
     border-bottom: 1px solid gray;
     max-width: 45px;
 }
 
-.title__end{
+.title__end {
     font-size: 15px;
     padding-top: 50px;
     padding-bottom: 30px;
 }
 
-.fa-solid.fa-check{
+.fa-solid.fa-check {
     color: blue;
     line-height: 25px;
 }
 
-.horizontal__cards{
+.horizontal__cards {
     display: flex;
     justify-content: space-between;
 }
 
-.horizontal__cards>.botton__cards{
+.horizontal__cards>.botton__cards {
     background-color: #0061FF;
     width: 233px;
 }
 
-.ul__cards>.horizontal__cards{
+.ul__cards>.horizontal__cards {
     max-width: 610px;
 }
 
-/* CENTRAL PAGE  */
+/* PAGE CENTER  */
+
+.page-center {
+    display: flex;
+    gap: 50px;
+    padding-top: 150px;
+}
+
+.img__page-center {
+    flex-basis: 60%;
+}
+
+.text__page-center {
+    flex-basis: 40%;
+    padding-top: 50px;
+    padding-right: 70px;
+}
+
+.botton__page-center{
+    margin-top: 30px;
+    border: 1px solid black;
+    background-color: white;
+    color: currentColor;
+   max-width: 160px;
+   padding: 20px 0 0 0 ;
+   
+}
