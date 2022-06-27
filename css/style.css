@@ -121,7 +121,8 @@ ul {
 .titolo__canone,
 .title__business-cards,
 .title__teams,
-.title__join {
+.title__join,
+.title__faq {
 
     font-size: 40px;
     margin-top: 160px;
@@ -475,6 +476,7 @@ avanzato */
 .title__join {
     flex-basis: 500px;
     margin-top: 140px;
+    color: #61082B;
 }
 
 .botton__join {
@@ -489,4 +491,17 @@ avanzato */
 
 /* CSS FAQ  */
 
+.li__faq{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding: 40px 40px 40px 0;
 
+}
+
+.ul__faq:last-child{
+    border-bottom: 1px solid black;
+}
+
+
+/* CSS FOOTER  */
