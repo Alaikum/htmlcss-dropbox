@@ -60,7 +60,7 @@ ul {
     padding-top: 85px;
 }
 
-.largecontainer {
+.large-container {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -119,7 +119,8 @@ ul {
 }
 
 .titolo__canone,
-.title__business-cards {
+.title__business-cards,
+.title__teams {
 
     font-size: 40px;
     margin-top: 160px;
@@ -139,14 +140,17 @@ ul {
 
 /* CARDS CSS  */
 
-.row {
+.row,
+.row__teams {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
 }
 
 .col4,
-.col4__business-cards {
+.col4__business-cards,
+.col4__teams,
+.col6__teams {
 
     /* flex-basis: calc(100% / 3); */
     border: 1px solid black;
@@ -228,8 +232,9 @@ avanzato */
     padding-bottom: 40px;
 }
 
-.linea {
-    border-bottom: 1px solid gray;
+.linea,
+.linea__teams {
+    border-bottom: 1px solid #E3E3E5;
     max-width: 45px;
 }
 
@@ -301,12 +306,103 @@ avanzato */
     padding-bottom: 40px;
 }
 
-.col4__business-cards{
+.col4__business-cards {
     border: none;
 }
-.padding-row{
+
+.padding-row {
     padding-top: 70px;
 }
 
 
 /* TEAM CSS  */
+
+.title__teams {
+    padding-right: 350px;
+}
+
+#link__teams {
+    color: #2D2DF1;
+}
+
+.logo__teams {
+    padding-top: 155px;
+    max-width: 1920px;
+    margin: 0 auto;
+
+}
+
+.row__teams {
+    gap: 0;
+}
+
+.col4__teams,
+.col6__teams {
+    border: none;
+}
+
+.square {
+
+    aspect-ratio: 1 / 1;
+    padding: 50px;
+    display: flex;
+
+}
+
+
+
+
+
+
+
+#designit {
+    background-color: #A2D39B;
+}
+
+#arizona {
+    background-color: #61082B;
+}
+
+#florida {
+    background-color: #0093CE;
+}
+
+#topps {
+    background-color: #FF1C1C;
+}
+
+#world-bicycle{
+    background-color: #D5001F;
+}
+#hearst{
+    background-color: #B4D0E7;
+}
+
+#lonely{
+    background-color: #0D2481;
+}
+
+#clear{
+    background-color: #FFD830;
+}
+
+
+
+.gray {
+    background-color: #F5F5F5;
+
+}
+
+.square-main-logo__teams {
+    padding: 50px;
+}
+
+.linea__teams{
+    padding-top: 25px;
+    max-width: 100px;
+}
+
+.text__teams{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
