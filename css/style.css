@@ -58,6 +58,7 @@ ul {
 .hero {
     background-color: #B4D0E7;
     padding-top: 85px;
+    max-width: 1920;
 }
 
 .large-container {
@@ -143,7 +144,8 @@ ul {
 /* CARDS CSS  */
 
 .row,
-.row__teams {
+.row__teams,
+.row__footer {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
@@ -186,7 +188,8 @@ ul {
 
 .title__cards,
 .title__page-center,
-.col4-title__business-cards {
+.col4-title__business-cards,
+.title__footer {
     font-size: 24px;
     padding-bottom: 30px;
 }
@@ -470,6 +473,7 @@ avanzato */
     justify-content: center;
     align-items: center;
     gap: 195px;
+    flex-wrap: wrap;
 
 }
 
@@ -491,7 +495,7 @@ avanzato */
 
 /* CSS FAQ  */
 
-.li__faq{
+.li__faq {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid black;
@@ -499,9 +503,54 @@ avanzato */
 
 }
 
-.ul__faq:last-child{
+.ul__faq:last-child {
     border-bottom: 1px solid black;
+    margin-bottom: 150px;
 }
 
 
 /* CSS FOOTER  */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.row__footer{
+    gap: 15px;
+    justify-content: space-between
+}
+
+.col__footer {
+    padding-top: 105px;
+}
+
+
+
+.flex__footer {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.link__footer{
+    padding-bottom: 120px;
+}
+
+.font__language{
+    color: #818073;
+    padding-bottom: 50px;
+}
+.fa-earth-europe{
+    padding-right: 5px;
+}
+
+
+.language::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 115px;
+    background-color:  white;
+    margin-bottom: 40px;
+}
